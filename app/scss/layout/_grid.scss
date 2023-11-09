@@ -28,5 +28,18 @@
   }
   &__sidebar {
     background-color: hsl(300, 100%, 30%);
+    // text-align: center;
+
+    // @include u.breakpoint(large) {
+    //   text-align: left;
+    // }
+
+    // @media (max-width: 56.25em) {
+    //   text-align: center;
+    // }
+
+    @include u.breakpoint-down(medium) {
+      text-align: center;
+    }
   }
 }
